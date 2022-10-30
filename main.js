@@ -1,3 +1,4 @@
+
 let isim = document.querySelector("#name"), //Tanımldığımız isim değişkenine HTML yapısındaki id'si #name olan tag'a tanılıyoruz.
     days = ["Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"]  //Haftanın günlerini bir array içine alıyoruz.
 isim.innerHTML = prompt("Adınızı giriniz")//isim değişkenine kullanıcıdan aldığımız veriyi aktarıyoruz. innerHTML ile içeriği değiştiriyoruz.
